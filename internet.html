@@ -1,13 +1,17 @@
 <html>
   <head>
     <title>sejarah Internet</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="12.css"> 
   </head>
-    
 
+ 
+    <body style="background-image:url('ok.jpg')">>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+p{ font-color:#0000ff }
+  .cx{ font-color:#ff0000 }
  body {background-color: powderblue;}
+}
 {font-family: Arial;}
 
 /* Style the tab */
@@ -87,12 +91,12 @@ body {
 <div class="tab">
   <button class="tablinks" onclick="openCity(event, 'Internet')">Sejarah Internert</button>
   <button class="tablinks" onclick="openCity(event, 'Web')">Sejarah Web</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Perkembangan Web</button>
+  <button class="tablinks" onclick="openCity(event, 'web2')">Perkembangan Web</button>
 </div>
 
 <div id="Internet" class="tabcontent">
-  <h3>INTERNET</h3>
-  <p>Awal mulanya, pada tahun 1969 internet hanyalah sebuah jaringan komputer yang dibuat dan dikembangkan oleh ARPA yang merupakan bagian dari Departemen Pertahanan Amerika Serikat. Pada saat itu, dikenal dengan proyek ARPANET yakni singkatan dari Advanced Research Project Agency Network.</p>
+  <h3 style="color:DodgerBlue;">INTERNET</h3>
+  <p >Awal mulanya, pada tahun 1969 internet hanyalah sebuah jaringan komputer yang dibuat dan dikembangkan oleh ARPA yang merupakan bagian dari Departemen Pertahanan Amerika Serikat. Pada saat itu, dikenal dengan proyek ARPANET yakni singkatan dari Advanced Research Project Agency Network.</p>
   <p>Dari proyek tersebut, menghasilkan temuan tentang bagaimana perangkat lunak (software) komputer yang berbasis UNIX dapat berpadu padan dengan perangkat keras (hardware). Sehingga, para pengembangnya mulai menyadari bahwa hal tersebut dapat membantu manusia untuk berkomunikasi jarak jauh melalui saluran telepon.</p>
   <p>Pada akhirnya, penemuan tersebut terus dikembangkan sampai pada akhirnya menjadi internet seperti yang ada dan kita nikmati sekarang ini. Dan untuk lebih memudahkan, selanjutnya kita bagi pembahasan menjadi dua, yaitu sejarah internet dunia dan sejarah internet Indonesia.</p>
 </div>
@@ -103,8 +107,8 @@ body {
   <p>Situs web biasanya dapat berupa hasil kerja dari perorangan atau menunjukkan kepemilikan dari suatu organisasi, perusahaan. Sebuah situs web berisi pranala yang terhubung ke situs web lain, begitu juga dengan situs web lainnya. Hal itulah yang menjadi penyebab adanya perbedaan antara situs web yang dibuat oleh perorangan dengan situs web yang dibuat oleh organisasi.</p> 
 </div>
 
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
+<div id="web2" class="tabcontent">
+  <h3>Pekembangan nya</h3>
   <p>.....</p>
 </div>
 
@@ -140,18 +144,28 @@ function openCity(evt, cityName) {
 </body>
 </html>
 
+  <link rel="stylesheet" type="text/css" href="profile.html" type="text/html">
 
-<h2>Login</h2>
+<h2 >Login</h2>
 <input type="button" onclick="alert('Wahyu Al Alif 16110489')" value="About Me">
-<p>.......................</p>
+<p class="cx">.......................</p>
 <form action="">
 Email:<br>
-<input type="text" name="userid">
+<input  type="text" name="userid">
 <br>
 password:<br>
 <input type="password" name="psw">
-<br><br>
+<br>
+<h>Jenis kelamin :</h>
+  <br>
+<form>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other  
+
+  <br><br>
 <input type="submit" value="Submit">
+<input type="reset" value="Clear">
 </form>
   
   
