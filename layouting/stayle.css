@@ -1,0 +1,59 @@
+<style> 
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left; background-image: url("katak.jpg");
+    height: 500px; 
+    padding-top: 300px;
+
+}
+.article2 {
+    text-align: left;
+    height: 400px; 
+    margin-top: 300px;
+}
+.sidebar {
+    width: 700px;
+    height: 400px;
+
+
+}
+
+header {background: silver;color:white; height: 50px;
+            }
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+footer {background: #aaa;color:white;}
+.nav {   background-image: url("katak.jpg");
+
+        height: 400px;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:center;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    
+}
+footer {text-alig-webkit-order:3;order:3; 
+           text-align: center; }
+</style>
